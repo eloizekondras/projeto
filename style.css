@@ -527,19 +527,41 @@ form .btn-enviar input {
         font-size: 1.3rem;
     }
 
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-img {
+        margin-bottom: 20px;
+    }
+
     .about-text h1 {
-        font-size: 1.8rem;
+        font-size: 20px;
     }
 
     .about-text h2 {
-        font-size: 1.3rem;
+        font-size: 18px;
     }
 
     .about-text p {
-        font-size: 0.9rem;
+        font-size: 14px;
+    }
+
+    .about-text .btn {
+        padding: 8px 16px;
     }
 
     .noticias-container .box {
         width: 100%; /* Ajusta para 1 box por linha */
+    }
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-box {
+        margin: 10px 0;
     }
 }
